@@ -2,7 +2,7 @@ const express = require("express");
 const { Client } = require("pg");
 
 const app = express();
-const port = 3001;
+const port = 3000;
 
 async function connectWithRetry() {
   const client = new Client({
