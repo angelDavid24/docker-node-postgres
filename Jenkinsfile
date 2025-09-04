@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     environment {
-        DEPLOY_SERVER = "172.16.12.198"
+        DEPLOY_SERVER = "172.16.12.194"
         DEPLOY_USER = "devops"          // Ajusta según tu servidor destino
         DEPLOY_PATH = "/sapal/dockerVol/app-node-postgres"
-        CREDENTIALS_ID = "srv198-ssh"  // ID de credencial SSH configurada en Jenkins
+        CREDENTIALS_ID = "srv194-ssh"  // ID de credencial SSH configurada en Jenkins
     }
 
     stages {
